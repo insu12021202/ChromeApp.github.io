@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Song+Myung&family=Source+Sans+3&display=swap');
+body {
+    background-color: #1D1C1B;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.bgImage {
+    position: absolute;
+    left: 450px;
+    top: 350px;
+    width: 436px;
+    height: 436px;
+    outline: 3px solid gray;
+}
+
+.hidden {
+    display: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+#title{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    opacity: 85%;
+    margin-bottom: 37px;
+}
+
+#login-input::placeholder{
+    color: white;
+    opacity: 85%;
+}
+
+#login-form{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15px;
+}
+
+#login-input{
+    width: 200px;
+    height: 30px;
+    background-color: none;
+    text-align: center;
+    font-size: 15px;
+    border-left-width:0;
+    border-right-width:0;
+    border-top-width:0;
+    border-bottom-width:1;
+    background-color: transparent;
+    border-color: white;
+    opacity: 85%;
+}
+
+#todo-div{
+    position: absolute;
+    top: 350px;
+    right: 450px;
+}
+
+#todo-list{
+    padding-left: 80px;
+}
+
+#todo-list li:first-child{
+    padding-top: 50px;
+}
+
+#todo-list li{
+    padding-top: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+}
+
+#todo-list li button{
+    vertical-align: middle;
+    margin-left: 13px;
+    font-size: 15px;
+    border-style: none;
+    background-color: transparent;
+}
+
+#todo-list li button:hover{
+    font-size: 17px;
+}
+
+#todo-form input{
+    text-align: center;
+    padding: 0;
+    border: 0;
+    width: 436px;
+    height: 56px;
+    border-radius: 12px;
+    opacity: 85%;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+    outline: 3px solid gray;
+}
+
+#todo-form input::placeholder{
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: #1D1C1B;
+    opacity: 85%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#todo-list-container{
+    margin-top: 15px;
+    margin-right: 0;
+    width: 436px;
+    height: 365px;
+    border-radius: 12px;
+    background-color: white;
+    opacity: 85%;
+    overflow: auto;
+    outline: 3px solid gray;
+}
+
+#clock{
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    opacity: 85%;
+
+}
+
+#quote{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15x;
+    color: white;
+    opacity: 85%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#top-bar{
+    display: flex;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    vertical-align: middle;
+}
+
+#greeting{
+    padding: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: white;
+    opacity: 85%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#top-bar span{
+    margin-top: 0;
+    font-size: 15px;
+    color: white;
+    opacity: 85%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+
