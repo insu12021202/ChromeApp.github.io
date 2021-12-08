@@ -65,6 +65,8 @@ input:focus {
 
 #todo-div{
     position: absolute;
+    width: 436px;
+    height: 56px;
     top: 350px;
     right: 450px;
 }
@@ -97,10 +99,9 @@ input:focus {
 
 #todo-form input{
     text-align: center;
+    width: 100%;
     padding: 0;
     border: 0;
-    width: 436px;
-    height: 56px;
     border-radius: 12px;
     opacity: 85%;
     font-family: 'Nanum Myeongjo', serif;
@@ -175,6 +176,104 @@ input:focus {
     color: white;
     opacity: 85%;
     font-family: 'Nanum Myeongjo', serif;
+}
+
+@media (max-width: 1023px) {    
+    .bgImage{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        width: 250px;
+        height: 250px;
+    }
+    #todo-div{
+        top: 50%;
+        right: 10%;
+        width: 250px;
+        height: 250px;
+    }
+    #todo-list-container{
+        width: 250px;
+        height: 215px;
+    }
+}
+@media (max-width: 767px) {    
+    #title{
+        font-size: 50px;
+        margin-top: 80px;
+    }
+    #clock{
+        font-size: 30px;
+    }
+    #top-bar span{
+        font-size: 8px;
+    }
+    #greeting{
+        font-size: 8px;
+        padding-top: 8px;
+    }
+    #top-bar{
+        top: 1%;
+    }
+    .bgImage{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        width: 150px;
+        height: 150px;
+    }
+    #todo-div{
+        top: 50%;
+        right: 10%;
+        width: 150px;
+        height: 150px;
+    }
+    #todo-list-container{
+        width: 150px;
+        height: 113px;
+    }
+    #todo-form input{
+        height: 23px;
+        font-size: 9px;
+    }
+    #todo-form input::placeholder{
+        font-size: 9px;
+        vertical-align: middle;
+    }
+    #todo-list{
+        padding-left: 10px;
+    }
+    
+    #todo-list li:first-child{
+        padding-top: 0;
+    }
+    
+    #todo-list li{
+        padding-top: 10px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 5px;
+    }
+    
+    #todo-list li button{
+        vertical-align: middle;
+        margin-left: 5px;
+        font-size: 5px;
+        border-style: none;
+        background-color: transparent;
+    }
+    
+    #todo-list li button:hover{
+        font-size: 7px;
+    }
+
+    #quote{
+        font-size: 10px;
+        margin:0;
+    }
+
+    #login-form{
+        top: 35%;
+    }
 }
 
 
